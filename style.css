@@ -1,0 +1,141 @@
+body {
+    font-family: 'Junction', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+.container {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.w-on-b {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+h1 {
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    line-height: 80%;
+    margin: 0;
+}
+
+.checkerboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.checkerbox {
+    width: 50%;
+    position: relative;
+}
+
+.checkerbox:before {
+    content: "";
+	float: left;
+	padding-top: 100%;
+}
+
+.cbox-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.tl, .br {
+    background-color: black;
+    color: white;
+    height: calc(100% - 4rem);
+    width: calc(100% - 4rem);
+    top: 1rem;
+    left: 1rem;
+    padding: 1rem;
+}
+
+.tl {
+    display: grid;
+    align-items: end;
+}
+
+.placeholder {
+    background-color: black;
+    padding: 1em;
+    height: calc(100% - 2em);
+    width: calc(100% - 2em);
+}
+
+.boxart {
+    height: 100%;
+    width: 100%;
+}
+
+.tagline {
+    font-size: 3rem;
+    text-align: right;
+    margin: 0;
+}
+
+.demogrid {
+    display: flex;
+}
+
+.demobox {
+    width: calc(50% - 2rem);
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.demobox:first-of-type {
+    flex-direction: row-reverse;
+}
+
+.demolabel {
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    line-height: 80%;
+    width: fit-content;
+    margin: 0;
+}
+
+#commercial-label {
+    text-align: right;
+}
+
+.download { height: 2em; }
+
+h2 {
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.talk-paras {
+    display: flex;
+}
+
+.talk-paras > * {
+    width: 50%;
+}
+
+.email {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.email-block {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+audio {
+    vertical-align: middle;
+    }
