@@ -115,6 +115,11 @@ h1 {
 
 .download { height: 2em; }
 
+.description {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 h2 {
     font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -123,6 +128,8 @@ h2 {
 
 .talk-paras {
     display: flex;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .talk-paras > * {
