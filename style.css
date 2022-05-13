@@ -9,6 +9,10 @@ body {
     font-size: 1.5em;
 }
 
+a {
+    color: black;
+}
+
 .container {
     max-width: 60rem;
     margin: auto;
@@ -114,6 +118,19 @@ h1 {
 }
 
 .download { height: 2em; }
+
+.demonotes {
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.demonotes li {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: .75em;
+}
 
 .description {
     margin-left: 1rem;
